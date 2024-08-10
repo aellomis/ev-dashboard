@@ -66,7 +66,7 @@ export class SettingsOicpComponent implements OnInit {
     private componentService: ComponentService,
     private spinnerService: SpinnerService,
     private router: Router) {
-    this.isActive = this.componentService.isActive(TenantComponents.OICP);
+    this.isActive = true;
   }
 
   public ngOnInit() {

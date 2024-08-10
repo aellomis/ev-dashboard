@@ -30,7 +30,7 @@ export class SettingsSmartChargingComponent implements OnInit {
     private messageService: MessageService,
     private router: Router,
   ) {
-    this.isActive = this.componentService.isActive(TenantComponents.SMART_CHARGING);
+    this.isActive = true;
   }
 
   public ngOnInit(): void {

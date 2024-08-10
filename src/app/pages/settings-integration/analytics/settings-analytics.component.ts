@@ -36,7 +36,7 @@ export class SettingsAnalyticsComponent implements OnInit {
     this.analyticsLinksTableDataSource.changed.subscribe(() => {
       this.formGroup.markAsDirty();
     });
-    this.isActive = componentService.isActive(TenantComponents.ANALYTICS);
+    this.isActive = true;
   }
 
   public ngOnInit(): void {

@@ -37,7 +37,7 @@ export class SettingsRefundComponent implements OnInit {
     private translateService: TranslateService,
     private router: Router,
   ) {
-    this.isActive = this.componentService.isActive(TenantComponents.REFUND);
+    this.isActive = true;
   }
 
   public ngOnInit(): void {

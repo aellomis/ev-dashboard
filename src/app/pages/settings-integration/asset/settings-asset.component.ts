@@ -34,7 +34,7 @@ export class SettingsAssetComponent implements OnInit {
     private spinnerService: SpinnerService,
     private router: Router,
     public assetConnectionListTableDataSource: SettingsAssetConnectionEditableTableDataSource) {
-    this.isActive = this.componentService.isActive(TenantComponents.ASSET);
+    this.isActive = true;
   }
 
   public ngOnInit(): void {

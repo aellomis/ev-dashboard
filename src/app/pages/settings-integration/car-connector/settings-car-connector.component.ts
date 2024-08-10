@@ -35,7 +35,7 @@ export class SettingsCarConnectorComponent implements OnInit {
     private spinnerService: SpinnerService,
     private router: Router,
     public settingsCarConnectorConnectionTableDataSource: SettingsCarConnectorConnectionEditableTableDataSource) {
-    this.isActive = this.componentService.isActive(TenantComponents.CAR_CONNECTOR);
+    this.isActive = true;
   }
 
   public ngOnInit(): void {

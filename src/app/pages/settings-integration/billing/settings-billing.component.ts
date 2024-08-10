@@ -40,15 +40,17 @@ export class SettingsBillingComponent implements OnInit {
     private translateService: TranslateService,
     private router: Router,
   ) {
-    this.isBillingActive = this.componentService.isActive(TenantComponents.BILLING);
-    this.isBillingPlatformActive = this.componentService.isActive(TenantComponents.BILLING_PLATFORM);
+    // this.isBillingActive = this.componentService.isActive(TenantComponents.BILLING);
+    // this.isBillingPlatformActive = this.componentService.isActive(TenantComponents.BILLING_PLATFORM);
+    this.isBillingActive = true;
+    this.isBillingPlatformActive = true;
   }
 
   public ngOnInit(): void {
     // Build the form
     this.formGroup = new FormGroup({});
     // Load the conf
-    if (this.isBillingActive) {
+    if (true) {
       this.loadConfiguration();
     }
   }

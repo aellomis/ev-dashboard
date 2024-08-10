@@ -73,7 +73,7 @@ export class SettingsOcpiComponent implements OnInit {
     private componentService: ComponentService,
     private spinnerService: SpinnerService,
     private router: Router) {
-    this.isActive = this.componentService.isActive(TenantComponents.OCPI);
+    this.isActive = true;
   }
 
   public ngOnInit() {

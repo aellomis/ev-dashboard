@@ -37,7 +37,7 @@ export class SettingsPricingComponent implements OnInit {
     private translateService: TranslateService,
     private router: Router,
   ) {
-    this.isActive = this.componentService.isActive(TenantComponents.PRICING);
+    this.isActive = true;
   }
 
   public ngOnInit(): void {
