@@ -101,7 +101,7 @@
     "moment": "^2.29.4",
     "moment-duration-format": "^2.3.2",
     "moment-timezone": "^0.5.34",
-    "ng2-file-upload": "^1.4.0",
+    "ng2-file-upload": "^3.0.0",
     "ngx-captcha": "^12.0.2",
     "ngx-csv-parser": "^1.2.0",
     "ngx-daterangepicker-material": "^5.0.2",
