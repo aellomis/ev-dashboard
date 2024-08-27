@@ -363,7 +363,7 @@ tr.element-row:not(.expanded-row):active {
     border-bottom-width: 1px;
     position: sticky;
     top: 0px;
-    background-color: darken($brand-background, 2%);
+    background-color: darken($brand-background, 7%);
     z-index: 100;
   }
 
@@ -400,7 +400,7 @@ tr.element-row:not(.expanded-row):active {
   }
 
   tr:nth-child(even) {
-    background-color: darken($brand-background, 2%);
+    background-color: darken($brand-background, 7%);
   }
 
   .tab-pane & {

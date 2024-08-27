@@ -12,6 +12,7 @@
   left: 0;
   z-index: 2;
   width: 260px;
+  background: black;
   @include shadow-big();
   .logo-img {
     @extend .animation-transition-general;
