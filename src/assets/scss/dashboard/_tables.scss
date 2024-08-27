@@ -63,7 +63,7 @@ $outer-spinner: $brand-danger !default;
   white-space: nowrap;
   height: 25vh;
   min-height: 100px;
-  background-color: mat.get-color-from-palette($app-background, dialog);
+  background-color: black;
 }
 
 .table-dialog-list {
@@ -101,7 +101,7 @@ tr.mat-header-row {
   @media screen and (max-width: $res375) {
     overflow: auto;
   }
-  background: mat.get-color-from-palette($app-background, dialog);
+  background: black;
   padding: 0 10px;
 }
 
